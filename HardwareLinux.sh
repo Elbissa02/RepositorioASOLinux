@@ -9,7 +9,7 @@ echo ""
 echo "------Información relevante de la memoria------"
 echo ""
 free
-echo""
+echo ""
 
 echo "------Información relevante del disco duro------"
 echo ""
