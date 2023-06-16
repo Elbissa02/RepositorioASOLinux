@@ -3,7 +3,8 @@ clear
 
 echo "------Información relevante del procesador------"
 echo ""
-lscpu
+lscpu | grep "Nombre del modelo:"
+lscpu | grep "CPU(s)"
 echo ""
 
 echo "------Información relevante de la memoria------"
